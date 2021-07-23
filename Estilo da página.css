@@ -1,0 +1,485 @@
+/***************************************************************CLASS***************************************************************/
+.links_de_redirecionamento{
+    text-decoration-line: none;
+    color: white;
+    font-size: 15pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.links_de_redirecionamento:hover{
+    color: rgb(41, 76, 113);
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.divisores{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -3px;
+}
+.links_da_lista{
+    text-decoration-line: none;
+}
+.linhas_de_divisão_dos_entrevistado{
+    width: 140px;
+    margin-left: -20px;
+}
+.fundo_dos_links_de_redirecionamento{
+    position: absolute;
+    margin-top: 253px;
+    margin-left: -8px;
+    width: 16%;
+    height: 396px;
+}
+.imagem_das_noticias_do_mundo{
+    width: 105px;
+    margin-left: -215px;
+    border-radius: 10px;
+}
+.subtitulos_mundo{
+    font-size: 8pt;
+    margin-top: -70px;
+    margin-left: 100px;
+    color: rgb(41, 76, 113);
+}
+.breve_descrição_da_noticia_do_mundo{
+    margin-left: 110px;
+    
+    font-size: 10pt;
+}
+.links_das_noticias_mundo{
+    text-decoration-line: none;
+}
+.imagem_das_noticias_recentes{
+    width: 105px;
+    margin-left: -215px;
+    border-radius: 10px;
+}
+.subtitulos_noticias_recentes{
+    font-size: 8pt;
+    margin-top: -70px;
+    margin-left: 100px;
+    color: rgb(41, 76, 113);
+}
+.breve_descrição_da_noticias_recentes{
+    margin-left: 110px;
+    font-size: 10pt;
+}
+.links_das_noticias_recentes{
+    text-decoration-line: none;
+}
+.titulo_locais_de_vacinação{
+    font-size: 30pt;
+}
+.unidades_de_saúde{
+    padding-bottom: 25px;
+}
+.container_linha_de_publicidade{
+    margin-left: 30px;
+}
+.formatação_links_do_texto{
+    text-decoration-line: none;
+    color: rgb(222, 0, 62);
+}
+/****************************************************************ID'S***************************************************************/
+#detalhe_do_topo{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 85%;
+}
+#logo_do_site{
+    position: absolute;
+    margin-left: 87px;
+    margin-top: 45px;
+}
+#formatação_geral_dos_links{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 25%;
+}
+#titulo_entrevistas_aba_home{
+    position: absolute;
+    font-size: 15pt;
+    margin-top: 230px;
+    margin-left: 75px;
+    color: white;
+    background-color: rgb(41, 76, 113);
+    width: 14.1%;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#formatação_geral_da_lista_home{
+    width: 11.1%;
+    margin-top: 253px;
+    margin-left: 75px;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(222, 0, 62);
+    border-radius: 10px;
+}
+#pessoa_1{
+    margin-top: -30px;
+    color: white;
+}
+#pessoa_2, #pessoa_3, #pessoa_4, #pessoa_5, #pessoa_6, #pessoa_7{
+    margin-top:5px;
+    color: white;
+}
+#pessoa_8{
+    margin-top:5px;
+    margin-bottom: 20px;
+    color: white;
+} 
+#titulos_fique_por_dentro{
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 75px;
+    font-size: 14pt;
+    width: 179px;
+    background-color: rgb(41, 76, 113);
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+}
+#container_fique_por_dentro{
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 75px;
+}
+#email{
+    font-style: italic;
+    font-size: 15pt;
+}
+#campo_do_email{
+    width: 113px;
+    margin-bottom: 5px;
+}
+#botão_de_cadastro_do_email{
+    background-color: rgb(222, 0, 62);
+    color: white;
+    width: 179px;
+}
+#container_última_entrevista{
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 300px;
+}
+#titulo_última_entrevista{
+    width: 320px;
+    background-color: rgb(41, 76, 113);
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 100px;
+}
+#nome_do_último_entrevistado{
+    position: absolute;
+    width: 200px;
+    background-color: rgb(222, 0, 62);
+    color: white;
+    border-radius: 10px;
+}
+#titulo_de_ultimo_entrevistado{
+    margin-left: 5px;
+}
+#foto_do_último_entrevistado{
+    margin-top: 18px;
+    width: 320px;
+    height: 213px;
+    border-radius: 10px;
+}
+#enunciado_da_entrevista_com_felipe_silva{
+    width: 320px;
+}
+#container_ultima_entrevista_felipe_silva_link{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(222, 0, 62);
+}
+#ultima_entrevista_felipe_silva_link{
+    color: white;
+    text-decoration-line: none;
+}
+#container_destaque{
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 700px;
+}
+#titulo_destaque{
+    width: 320px;
+    background-color: rgb(41, 76, 113);
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 100px;
+}
+#nova_legislação{
+    position: absolute;
+    width: 200px;
+    background-color: rgb(222, 0, 62);
+    color: white;
+    border-radius: 10px;
+}
+#titulo_de_destaque{
+    margin-left: 5px;
+}
+#foto_da_nova_legislação{
+    margin-top: 18px;
+    width: 320px;
+    height: 213px;
+    border-radius: 10px;
+}
+#enunciado_da_nova_legislação{
+    width: 320px;
+}
+#container_nova_legislação_link{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(222, 0, 62);
+}
+#nova_legislação_link{
+    color: white;
+    text-decoration-line: none;
+}
+#container_mundo{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 300px;
+    font-size: 7pt;
+    width: 320px;
+    text-align: center;
+}
+#mundo{
+    background-color: rgb(41, 76, 113);
+    color: white;
+    border-radius: 100px;
+}
+#container_noticias_recentes{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 700px;
+    font-size: 7pt;
+    width: 320px;
+    text-align: center;
+}
+#noticias_recentes{
+    background-color: rgb(41, 76, 113);
+    color: white;
+    border-radius: 100px;
+}
+#container_de_copyright_aba_home{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(41, 76, 113);
+    margin-top: 1050px;
+    margin-left: -8px;
+}
+#ecrita_do_copyright_aba_home{
+    height: 94px;
+    margin-top: 4px;
+    text-align: center;
+}
+#container_1_brasil{ /*Brasil*/
+    position: absolute;
+    width: 53%;
+    margin-top: 217px;
+    margin-left: 380px;
+}
+#titulo_entrevistas_aba_brasil{
+    position: absolute;
+    font-size: 15pt;
+    margin-top: 230px;
+    margin-left: 75px;
+    color: white;
+    background-color: rgb(41, 76, 113);
+    width: 14.1%;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#formatação_geral_da_lista_brasil{
+    width: 10.9%;
+    margin-top: 253px;
+    margin-left: 75px;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(222, 0, 62);
+    border-radius: 10px;
+}
+#tiulo_da_noticia_1_aba_brasil{
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 76, 113);
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+#enunciado_aba_brasil{
+    text-align: center;
+    margin-left: 34px;
+}
+#data_da_noticias_aba_brasil{
+    text-align: center;
+    position: absolute;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#container_de_imagem_1_aba_brasil{
+    text-align: center;
+    margin-left: -675px;
+}
+#imagem_da_noticia_1_aba_brasil{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#breve_descrição_da_imagem_1_aba_brasil{
+    position: absolute;
+    margin-top: 375px;
+    font-size: 12pt;
+    font-style: italic;
+}
+#container_noticia_1_aba_brasil{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 675px;
+    width: 49%;
+    text-align: left;
+}
+#parágrafo_1_aba_brasil{
+    position: absolute;
+    font-size: 20pt;
+    margin-left: -10px;
+    width: 110%;
+}
+#demais_parágrafos_noticia_1_aba_brasil{
+    position: absolute;
+    font-size: 20pt;
+    margin-left: -10px;
+    width: 190%;
+}
+#gif_noticia_1_aba_brasil{
+    position: absolute;
+    margin-top: 456px;
+    margin-left: 380px;
+}
+#hr1{
+    width: 210px;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+#hr2{
+    width: 210px;    
+    margin-top: -15px;
+    margin-left: 447px;
+}
+#informativo_de_publicidade{
+    position: absolute;
+    font-size: 10pt;
+    margin-top: -22.5px;
+    margin-left: 208px;
+}
+#gif_da_publicidade{
+    position: absolute;
+    margin-left: -25%;
+}
+#hr_do_gif_de_publicidade{
+    width: 667px;
+    margin-top: 279px;
+    margin-left: -10px;
+}
+#primeira_dose_suspensa{
+    font-size: 30pt;
+}
+#vacinação_no_acre{
+    font-size: 30pt;
+}
+#container_de_copyright_aba_brasil{
+    position: absolute;
+    background-color: rgb(41, 76, 113);
+    width: 100%;
+    margin-top: 315%;
+    margin-left: -8px;
+}
+#ecrita_do_copyright_aba_brasil{
+    height: 94px;
+    text-align: center;
+}
+#titulo_entrevistas_aba_internacional_lista{ /*Internacional*/
+    position: absolute;
+    font-size: 15pt;
+    margin-top: 230px;
+    margin-left: 75px;
+    color: white;
+    background-color: rgb(41, 76, 113);
+    width: 14.1%;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#formatação_geral_da_lista_internacional{
+    width: 10.9%;
+    margin-top: 253px;
+    margin-left: 75px;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(222, 0, 62);
+    border-radius: 10px;
+}
+#container_1_internacional{
+    position: absolute;
+    width: 53%;
+    margin-top: 217px;
+    margin-left: 380px;
+}
+#container_do_titulo{
+    margin-left: -65px;
+}
+#titulo_noticia_1_aba_internacional{
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 76, 113);
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+#data_de_publicação_da_noticias{
+    font-weight: bold;
+}
+#hr_1_aba_internacional{
+    margin-left: -8px;
+}
+#imagem_da_noticia_aba_internacional{
+    width: 100%;
+    height: 541;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#hr_2_aba_internacional{
+    margin-left: -8px;
+}
+#paragrafo_noticia_1_aba_internacional{
+    width: 100%;
+}
+#titulo_turismo{
+    font-size: 30pt;
+}
+#container_de_copyright_aba_internacional{
+    position: absolute;
+    background-color: rgb(41, 76, 113);
+    width: 188.7%;
+    margin-top: 5%;
+    margin-left: -388px;
+}
+#ecrita_do_copyright_aba_internacional{
+    height: 94px;
+    text-align: center;
+}
+/*********************************************************Demais formatações********************************************************/
+body{
+    background-repeat: repeat-x;
+}
